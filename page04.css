@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    font-family: sans-serif;
+}
+.bro{
+    height: 100%; 
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./images/mccullough-mulvin-architects-thapar-university-expansion.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+   
+    bottom:40px;
+    width: 500px; 
+    height: 100px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px ;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.hla{
+   display: block;
+   align-items: center;
+   padding: 10px;
+    text-align: center;
+}
+.left-box{
+     display: flex;
+     bottom: 100px;
+    right:400px;
+    width: 400px; 
+    height: 500px;
+    position: relative; 
+    margin: 6% auto;
+    background: #fff;
+    border-radius: 20px;
+    overflow-x: hidden;
+    overflow-y: scroll;  
+}
+
+.right-box{
+    display: flex;
+    bottom: 692px;
+    left: 390px;
+    width: 385px; 
+    height: 490px;
+    position: relative;
+    margin: 6% auto;
+     /* background: rgb(255, 255, 255);  */
+     background-color: #fff;
+    padding: 5px ;
+    border-radius: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.table table-bordered table-dark{
+    height: 100%;
+    width: 100%;
+}
+
+.popup{
+    width: 400px;
+    background: rgb(0, 0, 0);
+    color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%)scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%)scale(1);
+}
+
+.popup h3{
+    font-size: 30px;
+    font-weight: 500px;
+    margin: 30px 0 10px;
+}
+
+.popup button{
+    width: auto;
+    margin-top: 50px ;
+    padding: 5px  ;
+    border: 0;
+    outline: none ;
+    font-size: 18px ;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+
+.btn{
+    width: 60px;
+    height: 40px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
